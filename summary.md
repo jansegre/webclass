@@ -1,8 +1,8 @@
-# Web Class
+# Web class
 
 Sumary
 
-- DNS, IP, HTTP, SSL/TLS, MIME/ContentType, URL, URI (sysadmin)
+- DNS, TCP/IP, HTTP, SSL/TLS, MIME/ContentType, URL, URI (sysadmin)
 - HTML, CSS (design)
 - Javascript, jQuery, Selectors (design)
 - MVC, ORM/ODM, Migrations, NoSQL, MySQL (db/devel)
