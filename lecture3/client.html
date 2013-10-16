@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<title>Chat</title>
+<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+<script>
+var base_url = "http://192.168.1.132:8080";
+function updateChat() {
+    $.get(base_url + "/fetchall", function(response) {
+        //$(".chat").text(response);
+
+        var msgs = JSON.parse(response);
+        $(".chat").text("");
+        for (var i = 0; i < msgs.length; i++) {
+            $(".chat").append("<div>" + msgs[i].u + ": " + msgs[i].m + "</div>");
+        }
+    });
+}
+
+var user;
+
+$(function() {
+    setInterval(updateChat, 200);
+    window.user = prompt("Entre com seu nome", "anonimo");
+    $(".chatform").on("submit", function (e) {
+        e.preventDefault();
+        var msg = {
+            //u: location.hash.slice(1),
+            u: window.user,
+            m: $(".chatform [name='message']").val()
+        };
+        $(".chatform [name='message']").val("");
+        $.post(base_url + "/push", JSON.stringify(msg), function(response) {
+            console.log(response);
+        })
+    })
+})
+</script>
+<div class="chat">
+</div>
+<form class="chatform">
+    <input name="message" type="text">
+    <input type="submit" value="Enviar">
+</form>
