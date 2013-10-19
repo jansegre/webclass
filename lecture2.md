@@ -39,4 +39,7 @@ Intro
       </body>
     </html>
 
+Practice
+--------
 
+[CodeAcademy HTML/CSS](http://www.codecademy.com/tracks/web)
