@@ -15,6 +15,4 @@ Topics
   - [Interactive Cheat-Sheet](http://ndpsoftware.com/git-cheatsheet.html)
   - [Documentation](http://git-scm.com/documentation)
 
-### Teste
-
 Lorem ipsum.
