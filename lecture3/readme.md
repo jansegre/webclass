@@ -9,3 +9,8 @@ Topics
   - [DOM](http://en.wikipedia.org/wiki/Document_Object_Model)
 - [jQuery](http://en.wikipedia.org/wiki/Jquery)
   - [AJAX](http://en.wikipedia.org/wiki/AJAX_(programming))
+
+Practice
+--------
+
+[CodeAcademy JavaScript](http://www.codecademy.com/tracks/javascript)
