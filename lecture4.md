@@ -4,6 +4,8 @@ Lecture 4
 Topics
 ------
 
+Lorem upsum.
+
 - Design frameworks
   - [Twitter Bootstrap](http://getbootstrap.com/)
   - [Zurb Foundation](http://foundation.zurb.com/)
