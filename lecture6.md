@@ -16,3 +16,8 @@ Topics
     - [Aptana](http://www.aptana.com/), Eclipse based, also installable as a plugin
     - [RubyMine](http://www.jetbrains.com/ruby/index.html), paid,
       but free for some cases, [apply here](http://www.jetbrains.com/ruby/buy/)
+
+Practice
+--------
+
+Complete the app from the getting started.
