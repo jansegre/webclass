@@ -6,6 +6,7 @@ Ruby
   - [Bundler](http://bundler.io/)
 - [RubyInstaller](http://rubyinstaller.org/downloads/)
   - ruby-2.0.0 / ruby-2.0.0 x64
+  - DevKit para e mesma verão escolhida acima
 
 Practice
 --------
