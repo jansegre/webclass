@@ -10,4 +10,5 @@ Ruby
 Practice
 --------
 
+- [Learn Ruby The Hard Way](http://ruby.learncodethehardway.org/book/), great book
 - [CodeAcademy](http://www.codecademy.com/tracks/ruby)
