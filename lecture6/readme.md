@@ -8,6 +8,7 @@ Topics
 - [Rails](http://rubyonrails.org/)
   - [Getting Started](http://guides.rubyonrails.org/getting_started.html)
   - [Bug no Windows](http://stackoverflow.com/questions/17350837/ruby-on-rails-add-gem-sqlite3-to-your-gemfile/17409859)
+  - [Rails Tutorial](http://ruby.railstutorial.org/ruby-on-rails-tutorial-book)
   - Editors:
     - [vim](http://www.vim.org/), not really an IDE,
       but has some [nice scripts](http://www.vim.org/scripts/script.php?script_id=1567)
